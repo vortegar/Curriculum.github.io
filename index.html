@@ -20,39 +20,43 @@
       <div class="navbar-links">
         <ul class="navbar__links-list">
           <li class="navbar__links__list-container">
-            <a href="" class="navbar__links__list__container-link">Sobre mi</a>
+            <a href="#aboutMe" class="navbar__links__list__container-link">Sobre mi</a>
           </li>
           <li class="navbar__links__list-container">
-            <a href="" class="navbar__links__list__container-link"
-              >Experiencia</a
-            >
+            <a href="#Experience" class="navbar__links__list__container-link"
+              >Experiencia</a>
           </li>
           <li class="navbar__links__list-container">
-            <a href="" class="navbar__links__list__container-link">Contacto</a>
+            <a href="#Skills" class="navbar__links__list__container-link"
+              >Habilidades</a>
+          </li>
+          <li class="navbar__links__list-container">
+            <a href="#contactSocialMedia" class="navbar__links__list__container-link">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <main class="descriptionContainer">
+    <main class="descriptionContainer" id="aboutMe">
       <div class="descriptionContainer-texts">
         <div class="descriptionContainer__texts-availabilityContainer">
           <span
             class="descriptionContainer__texts__availabilityContainer-circle"
           ></span>
           <p class="descriptionContainer__texts__availabilityContainer-text">
-            Disponible como Freelancer
+            Disponible
           </p>
         </div>
         <h2 class="descriptionContainer__texts-description">
-          Hola, soy Marcelo Ortega, me encuentro desarrollándome como
+          Hola, soy Victorio Ortega
+          <strong class="descriptionContainer__texts__description-strong">
+            Arquitecto
+          </strong>
+          , me encuentro desarrollándome como
           <strong class="descriptionContainer__texts__description-strong"
-            >FrontEnd Developer</strong
-          >
-          a su vez soy
-          <strong class="descriptionContainer__texts__description-strong"
-            >Ingeniero Mecánico</strong
-          >. Autodidacta y apasionado por aprender cada día algo nuevo.
+            >FrontEnd Developer</strong>.
+          Soy autodidacta y apasionado por aprender cada día algo nuevo.
+
         </h2>
         <h2 class="descriptionContainer__texts-previousWorks">
           ¡Aprende, construye y repite!
@@ -61,12 +65,12 @@
       <picture class="descriptionContainer-images">
         <img
           class="descriptionContainer__images-image"
-          src="./img/f677b939-f1d5-4125-a1ab-c26864daee5d.jpg"
+          src="./img/Foto.jpg"
           alt="profile picture"
         />
       </picture>
     </main>
-    <h3 class="titleProjects">Proyectos</h3>
+    <h3 id="Experience" class="titleProjects">Proyectos</h3>
     <article class="containerProjects">
       <img
         class="containerProjects-project ProjectOneI"
@@ -119,7 +123,7 @@
         <h2 class="containerPhrase-name">Aristóteles</h2>
       </section>
 
-      <h2 class="softSkillsTitle">Habilidades Blandas</h2>
+      <h2 id="Skills" class="softSkillsTitle">Habilidades Blandas</h2>
       <section class="containersoftSkills">
         <section class="containersoftSkills-containerSkill">
           <div class="containersoftSkills__containerSkill-figure">
@@ -191,6 +195,13 @@
           <h5 class="containerSkills__containerSkill-title">JavaScript</h5>
         </section>
 
+        <section class="containerSkills-containerSkill item5">
+          <div class="containerSkills__containerSkill-figure figureFive">
+            <img src="./img/icons8-sass-50.png" alt="Sass Logo" />
+          </div>
+          <h5 class="containerSkills__containerSkill-title">Sass</h5>
+        </section>
+
         <section class="containerSkills-containerSkill item4">
           <div class="containerSkills__containerSkill-figure figureFour">
             <img
@@ -201,13 +212,6 @@
             />
           </div>
           <h5 class="containerSkills__containerSkill-title">Accesibilidad</h5>
-        </section>
-
-        <section class="containerSkills-containerSkill item5">
-          <div class="containerSkills__containerSkill-figure figureFive">
-            <img src="./img/icons8-figma-48.png" alt="Figma Logo" />
-          </div>
-          <h5 class="containerSkills__containerSkill-title">Figma</h5>
         </section>
       </section>
     </article>
@@ -221,13 +225,13 @@
       </p>
       <img
         class="bootcamp-imagen"
-        src="./img/unnamed.jpg"
+        src="./img/unnamed-1.jpg"
         alt="Foto de perfil"
         width="50"
         height="50"
       />
-      <h2 class="bootcamp-autor">CodigoFacilito</h2>
-      <h3 class="bootcamp-bootcampFrontEnd">BootCamp FrontEnd</h3>
+      <h2 class="bootcamp-autor">Educación IT</h2>
+      <h3 class="bootcamp-bootcampFrontEnd">BootCamp Full Stack Engineer</h3>
     </section>
 
     <section class="formSocialMedia">
@@ -245,28 +249,19 @@
         <button class="containerform-button" type="submit">Enviar</button>
       </form>
 
-      <section class="containerSocialMedia">
+      <section id="contactSocialMedia" class="containerSocialMedia">
         <h2 class="containerSocialMedia-title">¡Conectemos!</h2>
-        <h3 class="containerSocialMedia-countryCity">Mérida, Venezuela</h3>
+        <h3 class="containerSocialMedia-countryCity">Santiago de Chile, Chile</h3>
         <h3 class="containerSocialMedia-contact">Contáctame por:</h3>
         <ul class="containerSocialMedia-listSocialMedia">
            <div class="containerSocialMedia__listSocialMedia-circle"><li class="containerSocialMedia__listSocialMedia-element">
-            <a class="containerSocialMedia__listSocialMedia__element-link" href="https://www.instagram.com/marcelortgar/"
+            <a class="containerSocialMedia__listSocialMedia__element-link" href="https://www.instagram.com/victoriortegar/"
               ><img class="containerSocialMedia__listSocialMedia__element__link-img" src="./img/icons8-instagram.svg" alt="instagram logo"
             /></a>
           </li></div>
-          <div class="containerSocialMedia__listSocialMedia-circle"> <li class="containerSocialMedia__listSocialMedia-element">
-            <a class="containerSocialMedia__listSocialMedia__element-link" href="https://www.facebook.com/marcelo.ortega.33821"
-              ><img class="containerSocialMedia__listSocialMedia__element__link-img" src="./img/icons8-facebook.svg" alt="facebook logo"
-            /></a>
-          </li></div>
+
           <div class="containerSocialMedia__listSocialMedia-circle"><li class="containerSocialMedia__listSocialMedia-element">
-            <a class="containerSocialMedia__listSocialMedia__element-link" href="https://twitter.com/OrtgMarcelo"
-              ><img class="containerSocialMedia__listSocialMedia__element__link-img" src="./img/icons8-twitter.svg" alt="twitter logo"
-            /></a>
-          </li></div>
-          <div class="containerSocialMedia__listSocialMedia-circle"><li class="containerSocialMedia__listSocialMedia-element">
-            <a class="containerSocialMedia__listSocialMedia__element-link" href="www.linkedin.com/in/marceloeortegar"
+            <a class="containerSocialMedia__listSocialMedia__element-link" href="https://www.linkedin.com/in/victorioortega/"
               ><img class="containerSocialMedia__listSocialMedia__element__link-img"
                 src="./img/icons8-linkedin-circled.svg"
                 alt="linkedin logo"
